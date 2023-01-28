@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 640px);
+  padding-right: calc(50% - 640px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/wall1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top__title {
+  font-style: normal;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  color: #FFFFFF;
+  padding-top: 217px;
+}
+.top__text {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 32px;
+  margin-bottom: 44px;
+}
+.top__button {
+  width: 234.06px;
+  height: 48.6px;
+  left: 120px;
+  top: 482.11px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  color: #FFFFFF;
+  border: 1px solid #6e6c6c;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: 0.5s;
+  align-self: center;
+  transition: 0.5s;
+}
+.top__button:hover {
+  transform: scale(0.9);
+}
+.top__button:hover {
+  background: #6d2020;
+  color: #b3acac;
+}
+
+.product {
+  background-image: url(img/wall2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product__game_img {
+  margin-top: 128px;
+  padding: 8px;
+  transition: all 0.3s;
+}
+.product__game_img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px;
+  border-radius: 9px;
+}
+.product__game_text {
+  color: #FFFFFF;
+  position: relative;
+  bottom: 55px;
+  left: 32px;
+  font-style: normal;
+  font-size: 24px;
+}/*# sourceMappingURL=game.css.map */
